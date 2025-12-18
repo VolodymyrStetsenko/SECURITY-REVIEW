@@ -183,32 +183,6 @@ if (msg.sender != s_owner) {
 
 # Low Risk Findings
 
-## <a id='L-01'></a>L-01. Initialization Timeframe Vulnerability
-
-_Submitted by [dianivanov](/profile/clo3cuadr0017mp08rvq00v4e)._      
-				
-### Relevant GitHub Links
-	
-https://github.com/Cyfrin/2023-10-PasswordStore/blob/main/src/PasswordStore.sol
-
-## Summary
-The PasswordStore contract exhibits an initialization timeframe vulnerability. This means that there is a period between contract deployment and the explicit call to setPassword during which the password remains in its default state. It's essential to note that even after addressing this issue, the password's public visibility on the blockchain cannot be entirely mitigated, as blockchain data is inherently public as already stated in the "Storing password in blockchain" vulnerability.
-
-## Vulnerability Details
-The contract does not set the password during its construction (in the constructor). As a result, when the contract is initially deployed, the password remains uninitialized, taking on the default value for a string, which is an empty string.
-
-During this initialization timeframe, the contract's password is effectively empty and can be considered a security gap.
-
-## Impact
-The impact of this vulnerability is that during the initialization timeframe, the contract's password is left empty, potentially exposing the contract to unauthorized access or unintended behavior. 
-
-## Tools Used
-No tools used. It was discovered through manual inspection of the contract.
-
-## Recommendations
-To mitigate the initialization timeframe vulnerability, consider setting a password value during the contract's deployment (in the constructor). This initial value can be passed in the constructor parameters.
-
-
 ### [I-1] The `PasswordStore::getPassword` natspec indicates a parameter that doesn't exist, causing the natspec to be incorrect
 
 **Description:** 
