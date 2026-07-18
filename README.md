@@ -1,12 +1,12 @@
 <div align="center">
-  <img src=".github/media/logo.png" alt="Stetsenko Security" width="96">
+  <img src="https://avatars.githubusercontent.com/u/114285634?s=200&v=4" width="112" alt="Volodymyr Stetsenko">
 
   <h1>Security Reviews</h1>
-  <p>Public smart-contract security assessments by Volodymyr Stetsenko.</p>
+  <p>Independent smart-contract security assessments by Volodymyr Stetsenko.</p>
 
-  <img src="https://img.shields.io/badge/REPORTS-2-0B1728?style=flat-square" alt="2 reports">
-  <img src="https://img.shields.io/badge/FINDINGS-6-0B1728?style=flat-square" alt="6 findings">
-  <img src="https://img.shields.io/badge/FOCUS-SOLIDITY-22D3EE?style=flat-square&logo=solidity&logoColor=07111F" alt="Solidity">
+  <img src="https://img.shields.io/badge/REPORTS-2-000000?style=flat-square" alt="2 reports">
+  <img src="https://img.shields.io/badge/FINDINGS-6-000000?style=flat-square" alt="6 findings">
+  <img src="https://img.shields.io/badge/SOLIDITY-000000?style=flat-square&logo=solidity&logoColor=white" alt="Solidity">
 </div>
 
 ---
@@ -24,10 +24,10 @@ These reports are independent portfolio assessments unless explicitly stated oth
 
 <div align="center">
   <a href="https://github.com/VolodymyrStetsenko">
-    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+    <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
   <a href="https://www.linkedin.com/in/volodymyr-stetsenko-656014246/">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://x.com/carstetsen">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
