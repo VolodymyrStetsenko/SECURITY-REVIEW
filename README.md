@@ -6,7 +6,6 @@
 
   <img src="https://img.shields.io/badge/REPORTS-2-000000?style=flat-square" alt="2 reports">
   <img src="https://img.shields.io/badge/FINDINGS-6-000000?style=flat-square" alt="6 findings">
-  <img src="https://img.shields.io/badge/STATUS-PUBLISHED-000000?style=flat-square" alt="Published">
 </div>
 
 ---
