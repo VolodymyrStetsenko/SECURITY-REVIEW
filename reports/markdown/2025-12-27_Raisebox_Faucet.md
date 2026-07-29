@@ -86,7 +86,7 @@ External participants supporting the protocol's operation.
 
 # Executive Summary
 
-A time-boxed security review of the PasswordStore protocol was done by Volodymyr Stetsenko, with a focus on the security aspects of the application's smart contracts implementation.
+A time-boxed security review of the RaiseBox Faucet protocol was conducted by Volodymyr Stetsenko, with a focus on the security aspects of the application's smart contracts implementation.
 
 | Attribute               | Details | 
 | ---------------------- | ------------ |
@@ -107,7 +107,7 @@ A time-boxed security review of the PasswordStore protocol was done by Volodymyr
 | Low               | 0                      |
 | Info              | 0                      |
 | Gas Optimizations | 0                      |
-| Total             | 0                      |
+| Total             | 3                      |
 
 
 ### Scope
@@ -314,7 +314,7 @@ contract DailyDripsResetTest is Test {
 }
 ```
 
-**Recommended Mitigation:** Add an access control modifier to the `setPassword` function. 
+**Recommended Mitigation:** Remove the erroneous `else { dailyDrips = 0; }` branch so the daily counter is reset only on a genuine new-day rollover, never on non-first-time or paused claims.
 
 ```diff
 -} else {

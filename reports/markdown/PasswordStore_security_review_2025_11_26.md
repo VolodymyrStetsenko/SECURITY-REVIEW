@@ -58,13 +58,13 @@ stored credentials.
 
 # Executive Summary
 
-A time-boxed security review of the PasswordStore protocol was done by Volodymyr Stetsenko, with a focus on the security aspects of the application's smart contracts implementation.
+A time-boxed security review of the PasswordStore protocol was conducted by Volodymyr Stetsenko, with a focus on the security aspects of the application's smart contracts implementation.
 
 | Attribute               | Details | 
 | ---------------------- | ------------ |
 | **Protocol**   | PasswordStore     |
 | **Auditor** | Volodymyr Stetsenko         |
-| **Solc Version**    | 0.8.18       |
+| **Solidity Version**    | 0.8.18       |
 | **Blockchain**   | Ethereum    |
 | **Methodology** | Manual Code Review, Static Analysis         |
 | **Review Period**    | November 24–26, 2025       |
@@ -76,10 +76,10 @@ A time-boxed security review of the PasswordStore protocol was done by Volodymyr
 | ----------------- | ---------------------- |
 | High              | 2                      |
 | Medium            | 0                      |
-| Low               | 1                      |
+| Low               | 0                      |
 | Info              | 1                      |
 | Gas Optimizations | 0                      |
-| Total             | 0                      |
+| Total             | 3                      |
 
 
 ### Scope
@@ -95,11 +95,11 @@ The following smart contracts were in scope of the audit:
 
 ## High 
 
-### [H-1] Passwords stored on-chain are visable to anyone, not matter solidity variable visibility
+### [H-1] Password stored on-chain is visible to anyone, not just the owner
 
 **Description:** All data stored on-chain is visible to anyone, and can be read directly from the blockchain. The `PasswordStore::s_password` variable is intended to be a private variable, and only accessed through the `PasswordStore::getPassword` function, which is intended to be only called by the owner of the contract. 
 
-However, anyone can direclty read this using any number of off chain methodologies
+However, anyone can directly read this using any number of off-chain methodologies
 
 **Impact:** The password is not private. 
 
@@ -181,7 +181,7 @@ if (msg.sender != s_owner) {
 ```
 
 
-# Low Risk Findings
+# Informational Findings
 
 ### [I-1] The `PasswordStore::getPassword` natspec indicates a parameter that doesn't exist, causing the natspec to be incorrect
 
