@@ -15,9 +15,11 @@
 
 | Project | Area | Date | Findings | Report |
 |---|---|---:|---|---:|
-| **PasswordStore** | Access control · Storage | 2025-11-26 | 2 High · 1 Informational | [PDF](reports/pdf/2025-11-26_PasswordStore.pdf) · [MD](reports/markdown/PasswordStore_security_review_2025_11_26.md) |
-| **RaiseBox Faucet** | Token distribution | 2025-12-27 | 2 High · 1 Medium | [PDF](reports/pdf/2025-12-27_Raisebox_Faucet.pdf) · [MD](reports/markdown/2025-12-27_Raisebox_Faucet.md) |
-| **Mystic Finance** | Liquid staking · Plume | 2026-05-11 | 1 Medium · 2 Low · 2 Informational | [PDF](reports/pdf/2026-05-11_MysticFinance.pdf) · [MD](reports/markdown/2026-05-11_MysticFinance.md) |
+| **PasswordStore** | Access control · Storage | 2025-11-26 | 2H · 1I | [PDF](reports/pdf/2025-11-26_PasswordStore.pdf) · [MD](reports/markdown/PasswordStore_security_review_2025_11_26.md) |
+| **RaiseBox Faucet** | Token distribution | 2025-12-27 | 2H · 1M | [PDF](reports/pdf/2025-12-27_Raisebox_Faucet.pdf) · [MD](reports/markdown/2025-12-27_Raisebox_Faucet.md) |
+| **Mystic Finance** | Liquid staking · Plume | 2026-05-11 | 1M · 2L · 2I | [PDF](reports/pdf/2026-05-11_MysticFinance.pdf) · [MD](reports/markdown/2026-05-11_MysticFinance.md) |
+
+<sub>Severity: **C** Critical · **H** High · **M** Medium · **L** Low · **I** Informational</sub>
 
 ---
 
