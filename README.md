@@ -2,11 +2,14 @@
   <img src=".github/media/logo.png" width="132" alt="Volodymyr Stetsenko">
 
   <h1>Security Reviews</h1>
-  <p>Security assessments and technical reports by Volodymyr Stetsenko.</p>
+  <p>Published protocol security reviews and technical reports by Volodymyr Stetsenko.</p>
 
   <img src="https://img.shields.io/badge/REPORTS-3-000000?style=flat-square" alt="3 reports">
   <img src="https://img.shields.io/badge/FINDINGS-11-000000?style=flat-square" alt="11 findings">
   <img src="https://img.shields.io/badge/LICENSE-CC%20BY--NC--ND%204.0-000000?style=flat-square" alt="License">
+
+  <br><br>
+  <a href="https://github.com/VolodymyrStetsenko/VolodymyrStetsenko/blob/main/WORK_WITH_ME.md"><strong>Discuss a scoped security review</strong></a>
 </div>
 
 ---
@@ -27,9 +30,15 @@ These reports are independent portfolio assessments unless explicitly stated oth
 
 Reports are licensed under [CC BY-NC-ND 4.0](LICENSE); embedded proof-of-concept code is MIT. See [LICENSE](LICENSE) for details.
 
+## Review engagements
+
+Protocol security reviews are defined by a fixed revision, written scope, exclusions, delivery window, and agreed reporting format. Typical outputs include architecture and trust-boundary mapping, a review ledger, reproducible findings, remediation guidance, and remediation verification.
+
+For scope and intake requirements, see [Working With Me](https://github.com/VolodymyrStetsenko/VolodymyrStetsenko/blob/main/WORK_WITH_ME.md). Do not send private source, credentials, or sensitive architecture through a public GitHub issue.
+
 <div align="center">
   <a href="https://github.com/VolodymyrStetsenko"><img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/volodymyr-stetsenko-656014246/"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/volodymyrstetsenko/"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://x.com/carstetsen"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
   <a href="https://www.youtube.com/@Zero2Audit"><img src="https://img.shields.io/badge/YOUTUBE-000000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
 </div>
