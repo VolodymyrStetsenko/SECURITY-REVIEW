@@ -4,8 +4,8 @@
   <h1>Security Reviews</h1>
   <p>Published protocol security reviews and technical reports by Volodymyr Stetsenko.</p>
 
-  <img src="https://img.shields.io/badge/REPORTS-3-000000?style=flat-square" alt="3 reports">
-  <img src="https://img.shields.io/badge/FINDINGS-11-000000?style=flat-square" alt="11 findings">
+  <img src="https://img.shields.io/badge/REPORTS-4-000000?style=flat-square" alt="4 reports">
+  <img src="https://img.shields.io/badge/REPORT%20FINDINGS-95-000000?style=flat-square" alt="95 findings documented across reports">
   <img src="https://img.shields.io/badge/LICENSE-CC%20BY--NC--ND%204.0-000000?style=flat-square" alt="License">
 
   <br><br>
@@ -21,8 +21,11 @@
 | **PasswordStore** | Access control · Storage | 2025-11-26 | 2H · 1I | [PDF](reports/pdf/2025-11-26_PasswordStore.pdf) · [MD](reports/markdown/PasswordStore_security_review_2025_11_26.md) |
 | **RaiseBox Faucet** | Token distribution | 2025-12-27 | 2H · 1M | [PDF](reports/pdf/2025-12-27_Raisebox_Faucet.pdf) · [MD](reports/markdown/2025-12-27_Raisebox_Faucet.md) |
 | **Mystic Finance** | Liquid staking · Plume | 2026-05-11 | 1M · 2L · 2I | [PDF](reports/pdf/2026-05-11_MysticFinance.pdf) · [MD](reports/markdown/2026-05-11_MysticFinance.md) |
+| **Castr.fun** | Token launchpad · Base | 2026-08-13 | 3C · 16H · 28M · 37L/I | [PDF](reports/pdf/2026-08-13_Castr.fun.pdf) · [MD](reports/markdown/2026-08-13_Castr.fun.md) |
 
 <sub>Severity: **C** Critical · **H** High · **M** Medium · **L** Low · **I** Informational</sub>
+
+<sub>Counts represent findings documented in each report. For team engagements, they are engagement totals and do not imply individual authorship of every finding.</sub>
 
 ---
 
