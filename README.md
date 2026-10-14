@@ -4,8 +4,8 @@
   <h1>Security Reviews</h1>
   <p>Published protocol security reviews and technical reports by Volodymyr Stetsenko.</p>
 
-  <img src="https://img.shields.io/badge/REPORTS-3-000000?style=flat-square" alt="3 reports">
-  <img src="https://img.shields.io/badge/REPORT%20FINDINGS-99-000000?style=flat-square" alt="99 findings documented across reports">
+  <img src="https://img.shields.io/badge/REPORTS-5-000000?style=flat-square" alt="5 reports">
+  <img src="https://img.shields.io/badge/REPORT%20FINDINGS-104-000000?style=flat-square" alt="104 findings documented across reports">
   <img src="https://img.shields.io/badge/LICENSE-CC%20BY--NC--ND%204.0-000000?style=flat-square" alt="License">
 
   <br><br>
@@ -18,6 +18,8 @@
 
 | Project | Area | Date | Findings | Report |
 |---|---|---:|---|---:|
+| **RISC Zero** | Mainnet verifiers · ZK | 2026-10-14 | 2I | [PDF](reports/pdf/2026-10-14_RISC-Zero.pdf) · [MD](reports/markdown/2026-10-14_RISC-Zero.md) |
+| **Ethena** | Cross-chain controls · Minting | 2026-10-08 | 3I | [PDF](reports/pdf/2026-10-08_Ethena.pdf) · [MD](reports/markdown/2026-10-08_Ethena.md) |
 | **N4A** | Bug bounty program | 2026-08-18 | 1H · 3M · 3L · 3I | [PDF](reports/pdf/2026-08-18_N4A.pdf) · [MD](reports/markdown/2026-08-18_N4A.md) |
 | **Castr.fun** | Token launchpad · Base | 2026-08-13 | 3C · 16H · 28M · 37L/I | [PDF](reports/pdf/2026-08-13_Castr.fun.pdf) · [MD](reports/markdown/2026-08-13_Castr.fun.md) |
 | **Mystic Finance** | Liquid staking · Plume | 2026-05-11 | 1M · 2L · 2I | [PDF](reports/pdf/2026-05-11_MysticFinance.pdf) · [MD](reports/markdown/2026-05-11_MysticFinance.md) |
