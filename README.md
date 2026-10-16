@@ -4,8 +4,8 @@
   <h1>Security Reviews</h1>
   <p>Published protocol security reviews and technical reports by Volodymyr Stetsenko.</p>
 
-  <img src="https://img.shields.io/badge/REPORTS-6-000000?style=flat-square" alt="6 reports">
-  <img src="https://img.shields.io/badge/REPORT%20FINDINGS-110-000000?style=flat-square" alt="110 findings documented across reports">
+  <img src="https://img.shields.io/badge/REPORTS-7-000000?style=flat-square" alt="7 reports">
+  <img src="https://img.shields.io/badge/REPORT%20FINDINGS-122-000000?style=flat-square" alt="122 findings documented across reports">
   <img src="https://img.shields.io/badge/LICENSE-CC%20BY--NC--ND%204.0-000000?style=flat-square" alt="License">
 
   <br><br>
@@ -24,7 +24,7 @@
 | **IZKONEN** | Token emissions · Base | 2026-08-15 | 1L · 5I | [PDF](reports/pdf/2026-08-15_IZKONEN.pdf) · [MD](reports/markdown/2026-08-15_IZKONEN.md) |
 | **Castr.fun** | Token launchpad · Base | 2026-08-13 | 3C · 16H · 28M · 37L/I | [PDF](reports/pdf/2026-08-13_Castr.fun.pdf) · [MD](reports/markdown/2026-08-13_Castr.fun.md) |
 | **Mystic Finance** | Liquid staking · Plume | 2026-05-11 | 1M · 2L · 2I | [PDF](reports/pdf/2026-05-11_MysticFinance.pdf) · [MD](reports/markdown/2026-05-11_MysticFinance.md) |
-| **APTree** | Yield aggregator | April 2026 | | Soon |
+| **APTree** | Yield aggregator · Aptos | 2026-04-13 | 1H · 4M · 1L · 6I | [PDF](reports/pdf/2026-04-13_APTree.pdf) · [MD](reports/markdown/2026-04-13_APTree.md) |
 
 <sub>Severity: **C** Critical · **H** High · **M** Medium · **L** Low · **I** Informational</sub>
 
